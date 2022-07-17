@@ -40,3 +40,12 @@
 li {
   list-style-type: none;
 }
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  text-align: center;
+  
+}
