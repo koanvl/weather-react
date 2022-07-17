@@ -8,7 +8,7 @@ export default function Forecast(props) {
       <li>Humidity: {props.humidity}%</li>
       <li>Wind: {props.wind} km/h</li>
       <li>
-        <img src={props.icon} />
+        <img src={props.icon} alt="forecast icon"/>
       </li>
     </ul>
   );
