@@ -1,11 +1,12 @@
 import React from "react";
+import Weather from "../../Weather/Weather";
 import Footer from "../Footer/Footer";
 
 export default function WeatherApp(){
   return (
   <div>
     <div className="container">
-      <h1>Weather App</h1>
+      <Weather/>
     </div>
     <Footer/>
     </div>);
